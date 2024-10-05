@@ -1,0 +1,91 @@
+.countdown-widget {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.message {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.time-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-block span:first-child {
+  font-size: 36px;
+  font-weight: bold;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 8px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #666;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #0066cc;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 18px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+  background-color: #0052a3;
+  transform: translateY(-2px);
+}
+
+.countdown-over {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+.countdown-over .message {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.countdown-over .emoji {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* Rest of the CSS remains unchanged */
